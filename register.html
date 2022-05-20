@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Hardik Thakre">
+  <title>Register here</title>
+  <style media="screen">
+
+    form {
+      width: 600px;
+      background-color: white;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid grey;
+    }
+
+    #social-handle {
+      background-color: lightgrey;
+      text-align: center;
+    }
+
+    .icons {
+      height: 50px;
+      width: 50px;
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-top: 16px;
+      padding-bottom: 16px;
+    }
+
+    .input-type {
+
+      padding-bottom: 10px;
+      margin-bottom: 36px;
+      border: 0;
+      border-bottom: 1px solid lightgrey;
+      width: 100%;
+
+    }
+
+    .container {
+      padding: 40px;
+      padding-left: 80px;
+      padding-right: 80px;
+      padding-bottom: 40px;
+    }
+
+    #button {
+      padding-bottom: 12px;
+      font-size: 18px;
+      padding-top: 12px;
+      padding-left: 24px;
+      padding-right: 24px;
+      background-color: blue;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+
+<body style="background-color:lightgrey">
+  <form>
+    <h1 style="text-align:center;">Register</h1>
+    <div id="social-handle">
+      <img class="icons" src="https://cdn-icons.flaticon.com/png/128/2504/premium/2504739.png?token=exp=1652843929~hmac=e557a695bf35b940be839a3ca2293060" alt="google">
+      <img class="icons" src="https://buffer.com/library/content/images/library/wp-content/uploads/2016/03/FB-f-Logo__blue_144.png" alt="facebook">
+      <img class="icons" src="https://cdn-icons.flaticon.com/png/128/3955/premium/3955024.png?token=exp=1652844207~hmac=aa2e83eefb265a80b0a226945d0c49ab" alt="instagram">
+      <img class="icons" src="https://buffer.com/library/content/images/library/wp-content/uploads/2016/03/snap-ghost-yellow-300x300.png" alt="snapchat">
+    </div>
+    <div class="container">
+
+      <input class="input-type" type="text" name="full name" placeholder="Enter Name" required ><br>
+      <input class="input-type" type="email" name="mail" placeholder="Enter Email" required><br>
+      <input class="input-type" type="password" name="password" placeholder="Enter Password" required><br>
+      <input class="input-type" type="password" name="confirm-password" placeholder="Confirm Password" required><br>
+      <input class="input-type" type="date" min="2002-01-01"><br>
+      <input class="input-type" type="file" ?/<br>
+
+
+    </div>
+    <center>
+      <input id="button" type="submit" name="Register">
+      <input type="reset" name="refresh" value="Refresh">
+    </center>
+  </form>
+</body>
+
+</html>

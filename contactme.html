@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+
+<style>
+
+  .forms{
+    width: 600px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    padding:30px;
+  }
+
+</style>
+
+</head>
+
+<body>
+  <h1 style="text-align:center;">Contact Me</h1>
+  <form class="forms" action="mailto:hardikthakre79@gmail.com" method="post">
+    <label class="form-headings">Enter Your Name : </label><br>
+    <input type="text" name="full name" required><br>
+    <label class="form-headings">Enter Your Email : </label><br>
+    <input type="email" name="Sender's Email" required><br>
+    <label class="form-headings">Gender : </label><br>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="Female">Female <br>
+    <label class="form-headings">Date Of Birth : </label><br>
+    <input type="date" name="DOB"><br>
+    <label class="form-headings">Choose below docs: </label><br>
+    <select class="" name="drop-down">
+      <option value="Adhaar Card">Adhaar Card</option>
+      <option value="Pan Card">Pan Card</option>
+      <option value="Driving License">Driving License</option>
+    </select><br>
+    <label class="form-headings">Upload Doc : </label><br>
+    <input type="file" name="document"><br>
+    <label class="form-headings">Feedback : </label><br>
+    <textarea name="feebdback" rows="12" cols="50"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
